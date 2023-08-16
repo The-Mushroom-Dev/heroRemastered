@@ -1,0 +1,36 @@
+player :
+    display sprite + <- animations - <
+    movement <- walking + < anim needed
+             <- idle + 
+             <- slignshot anim <- slignshot shoot projectile - < pose needed
+
+Rabbit :
+    display sprite + [replace placeholder]
+    movement +
+    dealing damage to the player on collision -
+
+Tiles :
+    vertical collision +
+    horizontal collision - [in work]
+    different tiles +
+    special tiles 
+    <- bouncy tiles -
+    <- ice tiles -
+    <- water tiles -*
+    <- entity tiles -
+
+Levels :
+    Level loading system -  <- Reloading Level -
+    <- loading tilemaps
+    <- empty all vectors
+
+Main Menu :
+    Press Enter to continue +
+    <- autosaves progress -
+    <- allow level selection -
+     <<- allow custom levels to be selected -*
+    <- menu art
+    <- other user interface desing
+
+
+    
